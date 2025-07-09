@@ -45,18 +45,7 @@ Bash
 cd bookroom
 数据库配置：
 
-你需要在 bookroom 文件夹下的 Spring Boot 项目中找到或创建数据库配置文件。通常是在 src/main/resources/application.properties 或 application.yml。
-
-示例 application.properties 配置：
-
-Properties
-spring.datasource.url=jdbc:mysql://localhost:3306/[你的数据库名称]?useSSL=false&serverTimezone=UTC
-spring.datasource.username=[你的数据库用户名]
-spring.datasource.password=[你的数据库密码]
-spring.jpa.hibernate.ddl-auto=update # 开发环境可以设置为 update，生产环境推荐 none 或 validate
-spring.jpa.show-sql=true
-spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.MySQL8Dialect # 根据你的数据库类型调整
-构建与运行后端服务：
+你需要在 bookroom 文件夹下的 Spring Boot 项目中找到或创建数据库配置文件。
 
 使用 Maven 或 Gradle 构建你的 Spring Boot 项目：
 
@@ -66,6 +55,7 @@ Bash
 java -jar target/[你的jar包名称].jar # 运行打包后的jar文件
 
 # 或者在开发环境中直接运行（如果你使用IDE如IntelliJ IDEA，通常可以直接运行主类）
+
 # 如果使用 Maven
 ./mvnw spring-boot:run
 
@@ -79,10 +69,8 @@ java -jar target/[你的jar包名称].jar # 运行打包后的jar文件
 
 Bash
 cd ../test-nav
-npm install # 或 yarn install
+npm install 
 环境变量配置 (.env 文件):
-
-如果你的 Vue.js 前端需要与后端进行通信，通常会有一个 .env 文件来配置后端 API 地址。在 test-nav 文件夹下创建 .env 文件（如果它还不存在）：
 
 Code snippet
 VUE_APP_API_BASE_URL=http://localhost:8080/api # 确保这个地址指向你本地运行的后端服务及API前缀
@@ -90,8 +78,7 @@ VUE_APP_API_BASE_URL=http://localhost:8080/api # 确保这个地址指向你本�
 
 Bash
 npm run serve # 通常是 Vue CLI 项目的启动命令
-# 或 yarn serve
-前端应用通常会在 http://localhost:8080 或 http://localhost:3000 (具体取决于你的 Vue 项目配置) 运行，并自动打开浏览器。
+前端应用通常会在 http://localhost:5173 运行，并自动打开浏览器。
 
 📂 项目结构
 一个简化的项目文件结构如下：
