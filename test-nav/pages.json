@@ -1,0 +1,48 @@
+{
+	"pages": [
+		   {
+					"path": "pages/login/index",
+					"style": {
+					}
+				},
+		{
+			"path": "pages/index/index",
+			"style": {}
+		},
+		{
+					"path": "pages/my-meetings/index",
+					"style": { "navigationBarTitleText": "我的会议" }
+				},
+		{
+		       "path": "pages/meeting-search/index",
+		       "style": { "navigationBarTitleText": "会议查询" }
+		   },
+		 {
+		        "path": "pages/meeting-room/index",
+		        "style": { "navigationBarTitleText": "会议室管理" }
+		    },
+		    {
+		        "path": "pages/meeting-type/index",
+		        "style": { "navigationBarTitleText": "会议类型管理" }
+		    },
+		    {
+		        "path": "pages/recurring-template/index",
+		        "style": { "navigationBarTitleText": "周期会议模板" }
+		    },
+		    {
+		        "path": "pages/role-management/index",
+		        "style": { "navigationBarTitleText": "会议角色管理" }
+		    },
+		    {
+		        "path": "pages/service-management/index",
+		        "style": { "navigationBarTitleText": "会议服务管理" }
+		    },
+			{
+			    "path": "pages/calendar-view/index",
+			    "style": { "navigationBarTitleText": "会议日历" }
+			}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black"
+	}
+}

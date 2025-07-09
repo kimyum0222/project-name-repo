@@ -1,0 +1,3 @@
+2025-07-04 18:44:14.130754+08:00 jdbc[73]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*]ELECT room_number, name FROM conference_rooms"; expected "EXPLAIN, EXECUTE"; SQL statement:
+ELECT room_number, name FROM conference_rooms [42001-224]

@@ -1,0 +1,85 @@
+{
+  "hash": "74db4d71",
+  "configHash": "9f2291ff",
+  "lockfileHash": "6ce959ae",
+  "browserHash": "bd760607",
+  "optimized": {
+    "element-plus": {
+      "src": "../../../../../../../node_modules/element-plus/es/index.mjs",
+      "file": "element-plus.js",
+      "fileHash": "409aed7a",
+      "needsInterop": false
+    },
+    "@fullcalendar/vue3": {
+      "src": "../../../../../../../node_modules/@fullcalendar/vue3/dist/index.js",
+      "file": "@fullcalendar_vue3.js",
+      "fileHash": "30c4dadd",
+      "needsInterop": false
+    },
+    "@fullcalendar/resource-timeline": {
+      "src": "../../../../../../../node_modules/@fullcalendar/resource-timeline/index.js",
+      "file": "@fullcalendar_resource-timeline.js",
+      "fileHash": "d1cc0aad",
+      "needsInterop": false
+    },
+    "@fullcalendar/interaction": {
+      "src": "../../../../../../../node_modules/@fullcalendar/interaction/index.js",
+      "file": "@fullcalendar_interaction.js",
+      "fileHash": "b735715d",
+      "needsInterop": false
+    },
+    "@element-plus/icons-vue": {
+      "src": "../../../../../../../node_modules/@element-plus/icons-vue/dist/index.js",
+      "file": "@element-plus_icons-vue.js",
+      "fileHash": "7ef505b3",
+      "needsInterop": false
+    },
+    "axios": {
+      "src": "../../../../../../../node_modules/axios/index.js",
+      "file": "axios.js",
+      "fileHash": "e0e399e7",
+      "needsInterop": false
+    },
+    "@fullcalendar/daygrid": {
+      "src": "../../../../../../../node_modules/@fullcalendar/daygrid/index.js",
+      "file": "@fullcalendar_daygrid.js",
+      "fileHash": "44d5b97e",
+      "needsInterop": false
+    },
+    "@fullcalendar/timegrid": {
+      "src": "../../../../../../../node_modules/@fullcalendar/timegrid/index.js",
+      "file": "@fullcalendar_timegrid.js",
+      "fileHash": "4753c710",
+      "needsInterop": false
+    },
+    "@fullcalendar/list": {
+      "src": "../../../../../../../node_modules/@fullcalendar/list/index.js",
+      "file": "@fullcalendar_list.js",
+      "fileHash": "3c4bf48e",
+      "needsInterop": false
+    },
+    "@fullcalendar/core/locales/zh-cn": {
+      "src": "../../../../../../../node_modules/@fullcalendar/core/locales/zh-cn.js",
+      "file": "@fullcalendar_core_locales_zh-cn.js",
+      "fileHash": "6081f2e4",
+      "needsInterop": false
+    }
+  },
+  "chunks": {
+    "chunk-RC2D6K27": {
+      "file": "chunk-RC2D6K27.js"
+    },
+    "chunk-ALPPRSLK": {
+      "file": "chunk-ALPPRSLK.js"
+    },
+    "chunk-MVT35QLI": {
+      "file": "chunk-MVT35QLI.js"
+    },
+    "chunk-BD53YDRZ": {
+      "file": "chunk-BD53YDRZ.js"
+    },
+    "chunk-MNTBHR2J": {
+      "file": "chunk-MNTBHR2J.js"
+    }
+  }
+}
